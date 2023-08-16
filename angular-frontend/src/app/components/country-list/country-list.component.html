@@ -1,0 +1,18 @@
+<div class="p-4 min-h-[360px] min-w-[720px] flex justify-center items-start">
+  <ol class="list-disc ml-4">
+    <li *ngFor="let tempCountry of countries">
+      <a [routerLink]="['languages', tempCountry.id]"
+        >{{ tempCountry.name }} - | - {{ tempCountry.area }} - | -
+        {{ tempCountry.countryCode2 }}</a
+      >
+    </li>
+  </ol>
+</div>
+<div class="p-4 flex items-center justify-center">
+  <app-pagination
+    [currentPage]="currentPage"
+    [itemsPerPage]="itemsPerPage"
+    [totalItems]="totalItems"
+    (pageChange)="onPageChange($event)"
+  ></app-pagination>
+</div>

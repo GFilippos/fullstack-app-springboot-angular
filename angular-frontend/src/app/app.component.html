@@ -1,0 +1,42 @@
+<div class="container mx-auto p-10">
+  <h1 class="text-4xl font-bold mb-4">Qualco Assesment</h1>
+</div>
+
+<div class="h-screen flex justify-center items-center">
+  <div class="w-1/4 h-full flex justify-start items-baseline text-l">
+    <div class="h-screen flex">
+      <h2 class="p-8 mr-10">Redirection Menu</h2>
+    </div>
+    <div>
+      <ul class="space-y-2">
+        <li>
+          <a
+            routerLink="/countries"
+            class="text-blue-600 hover:text-blue-800"
+            routerLinkActive="font-bold underline"
+            >Task 1</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/country-stats"
+            class="text-blue-600 hover:text-blue-800"
+            routerLinkActive="font-bold underline"
+            >Task 2</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/search"
+            class="text-blue-600 hover:text-blue-800"
+            routerLinkActive="font-bold underline"
+            >Task 3</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="w-1/2 h-full flex justify-center items-start mt-6">
+    <router-outlet></router-outlet>
+  </div>
+</div>

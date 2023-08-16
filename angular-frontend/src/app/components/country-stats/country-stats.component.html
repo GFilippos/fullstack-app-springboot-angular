@@ -1,0 +1,31 @@
+<div>
+  <div>
+    <div class="mb-4">
+      <div>
+        <table class="w-full border">
+          <thead>
+            <tr>
+              <th class="px-4 py-2 font-semibold border">Name</th>
+              <th class="px-4 py-2 font-semibold border">Country_Code_3</th>
+              <th class="px-4 py-2 font-semibold border">Year</th>
+              <th class="px-4 py-2 font-semibold border">Population</th>
+              <th class="px-4 py-2 font-semibold border">GDP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let temp of countryNames" class="px-4 py-2 border">
+              <td>
+                {{ temp.countryName }}
+              </td>
+              <td class="px-4 py-2 border">{{ temp.countryCode3 }}</td>
+              <td class="px-4 py-2 border">{{ temp.year }}</td>
+              <td class="px-4 py-2 border">{{ temp.population }}</td>
+              <td class="px-4 py-2 border">{{ temp.gdp }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <app-pagination></app-pagination> -->
+      </div>
+    </div>
+  </div>
+</div>
