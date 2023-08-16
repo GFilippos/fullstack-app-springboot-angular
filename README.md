@@ -1,4 +1,4 @@
-# Spring Boot Backend with Angular Frontend and MariaDB Database
+Spring Boot Backend with Angular Frontend and MariaDB Database
 
 ## Unfortunately due to limited time and coming back from vacation only this Monday i didnt get to fully complete to perfection all the tasks on this project.
 
