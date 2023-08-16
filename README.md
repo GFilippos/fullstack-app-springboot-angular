@@ -11,3 +11,7 @@
 5. Time to refactor and maybe find better ways to implement services.
 
 
+# You can find the details for the project configuration on the application.properties file
+
+
+
