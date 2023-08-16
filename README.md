@@ -1,6 +1,6 @@
 # Spring Boot Backend with Angular Frontend and MariaDB Database
 
-## Unfortunately due to limited time and coming back from vacation only this Monday i didnt get to fully complete to perfection all the tasks on this project.
+## Unfortunately due to limited time and coming back from vacation only this Monday i started working on this project last night so i didnt get to fully complete to perfection all the tasks on this project. Best practices, refactoring and architecture wise.
 
 ### Here are some things i wanted to do: 
 
